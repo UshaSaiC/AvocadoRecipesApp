@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct RipeningStagesView: View {
+    
+    var ripeningStages: [Ripening] = ripeningData
+    
     var body: some View {
-        Text("Ripening stages")
+        ScrollView(.horizontal, showsIndicators: false) {
+            VStack {
+                Spacer()
+                HStack(alignment: .center, spacing: 25) {
+                    ForEach(ripeningStages) { stage in
+                        RipeningView(ripening: stage)
+                    }
+                }
+                .padding(.vertical)
+                .padding(.horizontal, 25)
+                Spacer()
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
