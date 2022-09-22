@@ -16,6 +16,8 @@
 		B208229328DCA2D400FC1E88 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208229228DCA2D400FC1E88 /* SettingsView.swift */; };
 		B208229528DCA2ED00FC1E88 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208229428DCA2ED00FC1E88 /* AppView.swift */; };
 		B208229728DCA92500FC1E88 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208229628DCA92500FC1E88 /* HeaderView.swift */; };
+		B208229928DCB03C00FC1E88 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208229828DCB03C00FC1E88 /* HeaderModel.swift */; };
+		B208229B28DCB11200FC1E88 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208229A28DCB11200FC1E88 /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B208229228DCA2D400FC1E88 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B208229428DCA2ED00FC1E88 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		B208229628DCA92500FC1E88 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B208229828DCB03C00FC1E88 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		B208229A28DCB11200FC1E88 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		B208228A28DCA1AF00FC1E88 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B208229A28DCB11200FC1E88 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 		B208228B28DCA1BB00FC1E88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B208229828DCB03C00FC1E88 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 				B208229128DCA2B000FC1E88 /* RipeningStagesView.swift in Sources */,
 				B208227A28DC618D00FC1E88 /* AvocadoRecipesAppApp.swift in Sources */,
 				B208228F28DCA28C00FC1E88 /* AvocadosView.swift in Sources */,
+				B208229928DCB03C00FC1E88 /* HeaderModel.swift in Sources */,
+				B208229B28DCB11200FC1E88 /* HeaderData.swift in Sources */,
 				B208229728DCA92500FC1E88 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
